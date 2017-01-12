@@ -1,0 +1,8 @@
+/*
+ * @Author: zubin
+ * @Date: 2016-11-12 17:55:29
+ * @Last Modified by: Zubin
+ * @Last Modified time: 2017-01-06 18:00:46
+ */
+
+module.export=require('../build/app.js');

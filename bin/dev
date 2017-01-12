@@ -1,0 +1,5 @@
+const path = require('path');
+const current_path = process.cwd();
+
+
+require('runkoa')(path.join(current_path, './src/app.js'));
