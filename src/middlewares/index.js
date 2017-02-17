@@ -27,9 +27,8 @@ export default {
     app.use(convert(json()));
     app.use(convert(logger()));
 
-    app.use(convert(koaStatic(config.path.public)));
-    console.log(config.path.views);
-    app.use(views(config.path.views, {
+    app.use(convert(koaStatic(config.assert.public)));
+    app.use(views(config.assert.views, {
       extension: 'ejs',
     }));
 

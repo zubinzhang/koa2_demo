@@ -28,7 +28,7 @@ export default {
     maxAge: 1000 * 60 * 60 * 12, // 12h
   },
 
-  path: {
+  assert: {
     public: path.join(__dirname, '../public'),
     views: path.join(__dirname, '../views'),
   },
